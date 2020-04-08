@@ -99,38 +99,4 @@ TEST(Root, output_zero){
 }
 
 
-TEST(Root, string_input){
-
-    freopen("string.txt", "r", stdin);
-    double a,b,c;
-    std::cin >> a >> b >> c;
-    root(a,b,c);
-    FAIL();
-
-}
-
-TEST(Root, char_input){
-
-    freopen("char.txt", "r", stdin);
-    double a,b,c;
-    std::cin >> a >> b >> c;
-    root(a,b,c);
-    FAIL();
-
-}
-
-
-TEST(Root, bound){
-
-    freopen("bound.txt", "r", stdin);
-    double a,b,c,x,y;
-    int k;
-    while(std::cin >> a >> b >> c >> k >> x >> y){
-        ans cur = root(a,b,c);
-        EXPECT_NEAR(x, cur.x, 0.001);
-        EXPECT_NEAR(y, cur.y, 0.001);
-        EXPECT_EQ(k, cur.count);
-
-    }
-}
 

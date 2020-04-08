@@ -6,10 +6,6 @@
 ans root(float a, float b, float c){
 
 
-
-
-
-
     ans cur;
 
     if(a == b && b == c && c == 0){
