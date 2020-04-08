@@ -22,5 +22,6 @@ cache:
  directories:
  - '$HOME/.sonar/cache'
 
+ 
 notifications:
   email: false
