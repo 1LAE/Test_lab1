@@ -6,7 +6,7 @@ before_install:
 
 addons:
   sonarcloud:
-    organization: "seekerk-github"
+    organization: "1LAE-github"
 
 script:
   - qmake
