@@ -21,7 +21,6 @@ after_success:
 cache:
  directories:
  - '$HOME/.sonar/cache'
-
  
 notifications:
   email: false
