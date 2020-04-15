@@ -7,9 +7,6 @@ before_install:
 addons:
   sonarcloud:
     organization: "1lae"
-    token:
-        secure: "fdeb00220627368bac4d08505890d79262edfb49"
-    Dsonar.login="1LAE" -Dsonar.passwod="User89535462900"
     
 script:
   - qmake
