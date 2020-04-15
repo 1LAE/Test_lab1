@@ -7,7 +7,9 @@ before_install:
 addons:
   sonarcloud:
     organization: "1lae"
-
+    token:
+        secure: "fdeb00220627368bac4d08505890d79262edfb49"
+    
 script:
   - qmake
   - make
